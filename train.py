@@ -19,7 +19,7 @@ from utils import accuracy
 #
 # 範例： "augment"  /  "deep_model"  /  "lr_schedule"  /  "eval_tools"
 # =====================================================================
-ACTIVE_FEATURES = [
+ACTIVE_FEATURES = [#"feat: 新增訓練輔助工具" -m "新增 StepLR scheduler、EarlyStopping 與 gradient clipping 功能，並更新 ACTIVE_FEATURES 說明。"
     # 各組在此加入自己的功能字串
 ]
 # =====================================================================
