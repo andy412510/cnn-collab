@@ -7,15 +7,14 @@
 目前這是「乾淨基準 v1」。
 """
 
-def broken(          # <- 故意壞掉
+def broken():
     return 123
 
+
 def hello():
-    return "這是乾淨的版本 v1"
-
-
+    return "這是 conflict-demo 分支修改過的版本 v2"
 
 
 if __name__ == "__main__":
     print(hello())
-    printf(hi)
+    print(broken())
