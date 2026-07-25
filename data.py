@@ -23,7 +23,7 @@ def get_dataloaders(batch_size: int = 64, root: str = "./data"):
         transforms.Normalize((0.1307,), (0.3081,)),
     ])
 
-    train_set = MNIST(root=root, train=True, download=True, transform=train_tf)
+    training_set = MNIST(root=root, train=True, download=True, transform=train_tf)
     test_set = MNIST(root=root, train=False, download=True, transform=test_tf)
 
     train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True)
