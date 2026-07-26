@@ -20,8 +20,10 @@ from utils import accuracy
 # 範例： "augment"  /  "deep_model"  /  "lr_schedule"  /  "eval_tools"
 # =====================================================================
 ACTIVE_FEATURES = [
-    "augment" ,#各組在此加入自己的功能字串
-    "deep_model"# 各組在此加入自己的功能字串
+
+    "trainer_ext",
+    "augment" ,
+    "deep_model",
 ]
 # =====================================================================
 
