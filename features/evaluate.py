@@ -32,3 +32,5 @@ def save_model(model, path: str = "model.pt"):
 def load_model(model, path: str = "model.pt", device="cpu"):
     model.load_state_dict(torch.load(path, map_location=device))
     return model
+
+    
