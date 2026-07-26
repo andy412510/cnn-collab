@@ -22,6 +22,7 @@ from utils import accuracy
 ACTIVE_FEATURES = [
     # 各組在此加入自己的功能字串
     "eval_tools",
+    "augment" ,#各組在此加入自己的功能字串
     "deep_model"# 各組在此加入自己的功能字串
 ]
 # =====================================================================
