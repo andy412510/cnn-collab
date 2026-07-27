@@ -23,8 +23,10 @@ ACTIVE_FEATURES = [
    "trainer_ext: add StepLR scheduler, EarlyStopping, and gradient clipping helpers",
     "evaluate"
     # 各組在此加入自己的功能字串
-    "cnn_blocks",
-    "augment: add random rotation, horizontal flip, and gaussian noise"
+    "eval_tools",
+    "augment" ,
+    "deep_model",
+    "trainer_ext",
 ]
 # =====================================================================
 
