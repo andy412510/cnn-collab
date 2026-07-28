@@ -20,8 +20,9 @@ from utils import accuracy
 # 範例： "augment"  /  "deep_model"  /  "lr_schedule"  /  "eval_tools"
 # =====================================================================
 ACTIVE_FEATURES = [
-    # 各組在此加入自己的功能字串
-    #docs: 修改utils.py
+    #feat: 新增 CNN 模型基本建構區塊 (blocks)
+
+#為了後續組合與訓練 CNN 模型，在 features/blocks.py 中實作了共用的神經網路區塊，包含 dropout_block、bn_block，以及整合 Conv2d、ReLU 與 MaxPool2d 的 extra_conv_block，並已完成本地端 PyTorch 環境載入測試。
 ]
 # =====================================================================
 
